@@ -1,0 +1,9 @@
+
+cd hello
+rustc hello.rs
+
+cargo new testapp
+cd testapp
+cargo run
+cargo build
+cargo build --release
